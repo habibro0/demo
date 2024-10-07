@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    position: relative;
+    height: 550px;
+    width: 380px;
+    background-color: white;
+    border-radius: 40px;
+}
+#storiyan{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+}
+#storiyan::-webkit-scrollbar{
+    display: none;
+}
+
+
+.story{
+    
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+   border: 2px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: 0 2px;
+    overflow: hidden;
+
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#fs{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background-color: red; */
+    background-image: url(https://images.pexels.com/photos/20209646/pexels-photo-20209646/free-photo-of-badmandafe-the-musical-art.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
